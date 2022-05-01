@@ -4,7 +4,7 @@ Decodes dernasherbrezon/r2cloud NOAA data into custom folder.
 
 Workflow:
 
-- **Checks if a done.mark file exists**, if it does, continue. Else, sleep 1200, and check it again until it does.
+- **Checks if a done.mark file exists**, if it does not, continue. Else, sleep 1200, and check it again until it does.
 - **Declares variables**, which you must modify depending on your needs.
 - **Creates folders (if needed)** in /var/www/html/data/noaa.
 - **Copies raw audio file** from r2cloud data to /var/www/html/data/noaa/(timestamp)
