@@ -6,6 +6,9 @@
 noradID=28654
 datapath=/home/pi/r2cloud/data/satellites/$noradID/data/
 TZ=+02:00
+
+while true
+do
 workdate="$(date +"%d-%m-%Y")"
 workyear="$(date +"%Y")"
 workmonth="$(date +"%m")"
@@ -16,8 +19,7 @@ worksecond="$(date +"%S")"
 
 
 #condition statements
-while true
-do
+
 
     if [ ! -e "/var/www/html/data/noaa/noaa15/donemarks/"$workdate"_done.mark" ]; then
 
