@@ -3,7 +3,7 @@
 #______________NOAA 15________________
 
 #variable statement
-noradID=28654
+noradID=25338
 datapath=/home/pi/r2cloud/data/satellites/$noradID/data/
 TZ=+02:00
 
