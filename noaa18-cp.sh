@@ -6,7 +6,6 @@
 noradID=28654
 datapath=/home/pi/r2cloud/data/satellites/$noradID/data/
 TZ=+02:00
-
 while true
 do
 workdate="$(date +"%d-%m-%Y")"
